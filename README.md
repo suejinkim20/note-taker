@@ -1,7 +1,7 @@
 # note-taker
 
 ## Description
-This application is called Note Taker that can be used to write and save notes. This application will use an Express.js back end and will save and retrieve note data from a JSON file.
+This is a note-taking application that can be used to write and save notes. This application will use an Express.js back end and will save and retrieve note data from a JSON file.
 
 ### Functional Elements:
 
@@ -12,12 +12,16 @@ This application is called Note Taker that can be used to write and save notes. 
 * When the user clicks on an existing note in the list in the left-hand column, that note appears in the right-hand column
 * When the user clicks on the Write icon in the navigation at the top of the page, they are presented with empty fields to enter a new note title and the note’s text in the right-hand column
 
+### Issues
+* Delete button is not yet functioning because delete route has not been added
+* It appears notes cannot be edited after saving
 
 ## Usage
-This application is delpyed through Heroku at the following link: 
+This application is delpyed through Heroku at the following link: https://guarded-caverns-55464.herokuapp.com/
 
 The page has the following appearance: 
-
+![Screenshot 1](./public/assets/images/screenshot1.png)
+![Screenshot 2](./public/assets/images/screenshot2.png)
 
 ## Technologies Used
 
