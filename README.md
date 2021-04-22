@@ -1,48 +1,30 @@
 # note-taker
 
-used uuid npm package https://www.npmjs.com/package/uuid#uuidv1options-buffer-offset
-
 ## Description
-This application is a command line application that generates a ReadMe document in markdown. The application runs using Node.js and the Inquirer npm. The user responds to a series of prompts/questions and those answers are inserted into a readme template which dynamically generates uppon completion of the prompts. 
-
-Check out this sample [generatedReadMe.md](generatedReadMe.md)
+This application is called Note Taker that can be used to write and save notes. This application will use an Express.js back end and will save and retrieve note data from a JSON file.
 
 ### Functional Elements:
 
-* The user is prompted to answer a series of questions. Upon completion, a readme.md file is generated containing the following information:
-    * Title of the project
-    * Description
-    * Installation
-    * Usage
-    * Contributing
-    * Testing
-    * License
-        * Corresponding badge is generated near the top of the readMe
-        * A link to the license is placed in this license section
-        * The text for the license is displayed in this license section
-    * Questions
-        * Email address opens in default email application using "mailto:"
-        * GitHub profile is linked to user's github profile page
-* Table of Contents is linked to headings
-* The installation, license choice, and year for license purpose have default values.
+* When the user opens the application landing page, there is a link they can click that leads to the notes page.
+* When the notes page link is clicked, the user is presented with a page with existing notes listed in the left-hand column, plus empty fields to enter a new note title and the note’s text in the right-hand column
+* The user enters a new note title and the note’s text, a Save icon appears in the navigation at the top of the page
+* When the user clicks on the Save icon, the new note they have entered is saved and appears in the left-hand column with the other existing notes
+* When the user clicks on an existing note in the list in the left-hand column, that note appears in the right-hand column
+* When the user clicks on the Write icon in the navigation at the top of the page, they are presented with empty fields to enter a new note title and the note’s text in the right-hand column
 
 
 ## Usage
-In order to use this application, you must have Node.js installed, as well as the Inquirer package (see links below in Credits).
+This application is delpyed through Heroku at the following link: 
 
-The following video shows how a user would invoke the application from the command line, how a user would enter responses to all of the prompts in the application, and it displays the generated README that matches the user input and has a functioning table of contents.
+The page has the following appearance: 
 
-Walkthrough Video:
 
-![Screenshot 1](https://media.giphy.com/media/lps3QZni7kvTU7vBDc/giphy.gif)
-![Screenshot 2](https://media.giphy.com/media/uSKMOZrFWUaVNmES6a/giphy.gif)
-![Screenshot 3](https://media.giphy.com/media/a2zBvfiywp2qtXMVZ1/giphy.gif)
-
-## Credits
+## Technologies Used
 
 * Node.js: https://nodejs.org/en/
-* 
-
+* Inquirer npm: https://www.npmjs.com/package/inquirer
+* uuid npm: https://www.npmjs.com/package/uuid 
+* fs npm: https://www.npmjs.com/package/file-system 
 
 ## License
 
